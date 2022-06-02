@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5211A57528492657000C7CF5 /* VMwareGFX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A57428492657000C7CF5 /* VMwareGFX.h */; };
+		5211A57728492657000C7CF5 /* VMwareGFX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5211A57628492657000C7CF5 /* VMwareGFX.cpp */; };
+		5211A5882849266A000C7CF5 /* vmware_userclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A57E28492669000C7CF5 /* vmware_userclient.h */; };
+		5211A5892849266A000C7CF5 /* vmware_svgadevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5211A57F28492669000C7CF5 /* vmware_svgadevice.cpp */; };
+		5211A58A2849266A000C7CF5 /* logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5211A58028492669000C7CF5 /* logging.cpp */; };
+		5211A58B2849266A000C7CF5 /* vmware_userclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5211A58128492669000C7CF5 /* vmware_userclient.cpp */; };
+		5211A58C2849266A000C7CF5 /* vmware_svgadevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A58228492669000C7CF5 /* vmware_svgadevice.h */; };
+		5211A58D2849266A000C7CF5 /* vmware_framebuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A5832849266A000C7CF5 /* vmware_framebuffer.h */; };
+		5211A58E2849266A000C7CF5 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A5842849266A000C7CF5 /* logging.h */; };
+		5211A58F2849266A000C7CF5 /* vmware_framebuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5211A5852849266A000C7CF5 /* vmware_framebuffer.cpp */; };
+		5211A5902849266A000C7CF5 /* vmware_fbuserclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5211A5862849266A000C7CF5 /* vmware_fbuserclient.h */; };
+		5211A5912849266A000C7CF5 /* vmware_fbuserclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5211A5872849266A000C7CF5 /* vmware_fbuserclient.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5211A57128492657000C7CF5 /* VMwareGFX.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMwareGFX.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		5211A57428492657000C7CF5 /* VMwareGFX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMwareGFX.h; sourceTree = "<group>"; };
+		5211A57628492657000C7CF5 /* VMwareGFX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VMwareGFX.cpp; sourceTree = "<group>"; };
+		5211A57828492657000C7CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5211A57E28492669000C7CF5 /* vmware_userclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmware_userclient.h; sourceTree = "<group>"; };
+		5211A57F28492669000C7CF5 /* vmware_svgadevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vmware_svgadevice.cpp; sourceTree = "<group>"; };
+		5211A58028492669000C7CF5 /* logging.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logging.cpp; sourceTree = "<group>"; };
+		5211A58128492669000C7CF5 /* vmware_userclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vmware_userclient.cpp; sourceTree = "<group>"; };
+		5211A58228492669000C7CF5 /* vmware_svgadevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmware_svgadevice.h; sourceTree = "<group>"; };
+		5211A5832849266A000C7CF5 /* vmware_framebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmware_framebuffer.h; sourceTree = "<group>"; };
+		5211A5842849266A000C7CF5 /* logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging.h; sourceTree = "<group>"; };
+		5211A5852849266A000C7CF5 /* vmware_framebuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vmware_framebuffer.cpp; sourceTree = "<group>"; };
+		5211A5862849266A000C7CF5 /* vmware_fbuserclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmware_fbuserclient.h; sourceTree = "<group>"; };
+		5211A5872849266A000C7CF5 /* vmware_fbuserclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vmware_fbuserclient.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5211A56E28492657000C7CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5211A56728492657000C7CF5 = {
+			isa = PBXGroup;
+			children = (
+				5211A57328492657000C7CF5 /* VMwareGFX */,
+				5211A57228492657000C7CF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5211A57228492657000C7CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5211A57128492657000C7CF5 /* VMwareGFX.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5211A57328492657000C7CF5 /* VMwareGFX */ = {
+			isa = PBXGroup;
+			children = (
+				5211A57428492657000C7CF5 /* VMwareGFX.h */,
+				5211A57628492657000C7CF5 /* VMwareGFX.cpp */,
+				5211A58028492669000C7CF5 /* logging.cpp */,
+				5211A5842849266A000C7CF5 /* logging.h */,
+				5211A5872849266A000C7CF5 /* vmware_fbuserclient.cpp */,
+				5211A5862849266A000C7CF5 /* vmware_fbuserclient.h */,
+				5211A5852849266A000C7CF5 /* vmware_framebuffer.cpp */,
+				5211A5832849266A000C7CF5 /* vmware_framebuffer.h */,
+				5211A57F28492669000C7CF5 /* vmware_svgadevice.cpp */,
+				5211A58228492669000C7CF5 /* vmware_svgadevice.h */,
+				5211A58128492669000C7CF5 /* vmware_userclient.cpp */,
+				5211A57E28492669000C7CF5 /* vmware_userclient.h */,
+				5211A57828492657000C7CF5 /* Info.plist */,
+			);
+			path = VMwareGFX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5211A56C28492657000C7CF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5211A5902849266A000C7CF5 /* vmware_fbuserclient.h in Headers */,
+				5211A58D2849266A000C7CF5 /* vmware_framebuffer.h in Headers */,
+				5211A5882849266A000C7CF5 /* vmware_userclient.h in Headers */,
+				5211A58C2849266A000C7CF5 /* vmware_svgadevice.h in Headers */,
+				5211A58E2849266A000C7CF5 /* logging.h in Headers */,
+				5211A57528492657000C7CF5 /* VMwareGFX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5211A57028492657000C7CF5 /* VMwareGFX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5211A57B28492657000C7CF5 /* Build configuration list for PBXNativeTarget "VMwareGFX" */;
+			buildPhases = (
+				5211A56C28492657000C7CF5 /* Headers */,
+				5211A56D28492657000C7CF5 /* Sources */,
+				5211A56E28492657000C7CF5 /* Frameworks */,
+				5211A56F28492657000C7CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMwareGFX;
+			productName = VMwareGFX;
+			productReference = 5211A57128492657000C7CF5 /* VMwareGFX.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5211A56828492657000C7CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "John Othwolo";
+				TargetAttributes = {
+					5211A57028492657000C7CF5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 5211A56B28492657000C7CF5 /* Build configuration list for PBXProject "VMwareGFX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5211A56728492657000C7CF5;
+			productRefGroup = 5211A57228492657000C7CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5211A57028492657000C7CF5 /* VMwareGFX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5211A56F28492657000C7CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5211A56D28492657000C7CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5211A5892849266A000C7CF5 /* vmware_svgadevice.cpp in Sources */,
+				5211A5912849266A000C7CF5 /* vmware_fbuserclient.cpp in Sources */,
+				5211A58B2849266A000C7CF5 /* vmware_userclient.cpp in Sources */,
+				5211A58F2849266A000C7CF5 /* vmware_framebuffer.cpp in Sources */,
+				5211A58A2849266A000C7CF5 /* logging.cpp in Sources */,
+				5211A57728492657000C7CF5 /* VMwareGFX.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5211A57928492657000C7CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5211A57A28492657000C7CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5211A57C28492657000C7CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = CW9NBAZ8M7;
+				INFOPLIST_FILE = VMwareGFX/Info.plist;
+				MODULE_NAME = com.otj.VMwareGFX;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otj.VMwareGFX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		5211A57D28492657000C7CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = CW9NBAZ8M7;
+				INFOPLIST_FILE = VMwareGFX/Info.plist;
+				MODULE_NAME = com.otj.VMwareGFX;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otj.VMwareGFX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5211A56B28492657000C7CF5 /* Build configuration list for PBXProject "VMwareGFX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5211A57928492657000C7CF5 /* Debug */,
+				5211A57A28492657000C7CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5211A57B28492657000C7CF5 /* Build configuration list for PBXNativeTarget "VMwareGFX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5211A57C28492657000C7CF5 /* Debug */,
+				5211A57D28492657000C7CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5211A56828492657000C7CF5 /* Project object */;
+}
